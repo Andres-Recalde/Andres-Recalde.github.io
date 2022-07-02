@@ -1,0 +1,522 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test de Personalidad</title>
+    <link rel="stylesheet" href="C:\Users\andre\Desktop\Platzi\HTML - CSS - JavaScript\Curso\CSS\Proyecto.css">
+  <body>
+    <div class="barra_busqueda">
+      <img src="https://images.pexels.com/photos/9162030/pexels-photo-9162030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="img-bar">
+      <div class="item_bar">
+        <a>texto 1</a>
+        <a>texto 2</a>
+        <a>texto 3</a>
+      </div>
+    </div>
+    <div class="barra_Contenido">
+      <a href="#a">SECCIÓN 1</a>
+      <a href="#p">SECCIÓN 2</a>
+      <a href="#c">SECCIÓN 3</a>
+      <a href="#h">SECCIÓN 4</a>
+      <a href="#ev">SECCIÓN 5</a>
+      <a href="#d">SECCIÓN 6</a>
+      <a href="#e">SECCIÓN 7</a>
+      <a href="#ez">SECCIÓN 8</a>
+      <a href="#ds">SECCIÓN 9</a>
+      <a href="#i">SECCIÓN 10</a>
+    </div>
+    <div class="Preguntas">
+      <div id="a">
+        <form action="index.html" method="post">
+          <h2>SECCIÓN 1</h2>
+          <ul>
+            <li>Al realizar alguna actividad o tarea me gusta que las cosas salgan perfectas.</li>
+              <input type="radio" id="a1" name="a1" value="1" required>SI
+              <br>
+              <input type="radio" id="no" name="a1" value="0" required>NO
+            <li>Programo mis actividades y salirme del esquema me genera ansiedad.</li>
+              <input type="radio" id="a2" name="a2" value="1">SI
+              <br>
+              <input type="radio" id="no" name="a2" value="0">NO
+            <li>Me resulta difíócil expresar mis emociones y mis sentimientos a los demás.</li>
+              <input type="radio" id="a3" name="a3" value="1">SI
+              <br>
+              <input type="radio" id="no" name="a3" value="0">NO
+            <li>Soy ríógido en temas vinculados con la moral y los valores.</li>
+              <input type="radio" id="a4" name="a4" value="1">SI
+              <br>
+              <input type="radio" id="no" name="a4" value="0">NO
+            <li>Me preocupa la posibilidad de tener alguna falla cuando realizo una actividad.</li>
+              <input type="radio" id="a5" name="a5" value="1">SI
+              <br>
+              <input type="radio" id="no" name="a5" value="0">NO
+            <li>Me siento preocupado cuando escucho críóticas en mi contra.</li>
+              <input type="radio" id="a6" name="a6" value="1">SI
+              <br>
+              <input type="radio" id="no" name="a6" value="0">NO
+            <li>Cuando realizo alguna actividad me agrada que las personas se adapten a mi forma de hacer las cosas.</li>
+              <input type="radio" id="a7" name="a7" value="1">SI
+              <br>
+              <input type="radio" id="no" name="a7" value="0">NO
+            <li>En mis actividades soy muy organizado y me preocupo de todos los detalles.</li>
+              <input type="radio" id="a8" name="a8" value="1">SI
+              <br>
+              <input type="radio" id="no" name="a8" value="0">NO
+            <li>En las tareas laborales o domeósticas, busco que todo tenga un orden ideal.</li>
+              <input type="radio" id="a9" name="a9" value="1">SI
+              <br>
+              <input type="radio" id="no" name="a9" value="0">NO
+            <li>Tengo ideas o pensamientos que no logro quitarlos faócilmente.</li>
+              <input type="radio" id="a10" name="a10" value="1">SI
+              <br>
+              <input type="radio" id="no" name="a10" value="0">NO
+              <br>
+            <input type="button" value="ENVIAR" onclick="RECOGER_a()">
+          </ul>
+        </form>
+      </div>
+      <div id="p">
+        <form action="index.html" method="post">
+          <h2>SECCIÓN 2</h2>
+          <ul>
+            <li>Cuando veo a un grupo de amigos reunidos tengo la sospecha de que pueden estar hablando de mi.</li>
+              <input type="radio" id="p1" name="p1" value="1">SI
+              <br>
+              <input type="radio" id="no" name="p1" value="0">NO
+            <li>Para que yo confíóe en los demaós deben demostrarme lealtad.</li>
+              <input type="radio" id="p2" name="p2" value="1">SI
+              <br>
+              <input type="radio" id="no" name="p2" value="0">NO
+            <li>Me molesta mucho cuando me interrumpen el trabajo que estoy realizando.</li>
+              <input type="radio" id="p3" name="p3" value="1">SI
+              <br>
+              <input type="radio" id="no" name="p3" value="0">NO
+            <li>Al ver a mi pareja en companñ íóa de otra persona siento ira.</li>
+              <input type="radio" id="p4" name="p4" value="1">SI
+              <br>
+              <input type="radio" id="no" name="p4" value="0">NO
+            <li>Soy una persona que denota una cierta autoridad natural.</li>
+              <input type="radio" id="p5" name="p5" value="1">SI
+              <br>
+              <input type="radio" id="no" name="p5" value="0">NO
+            <li>Prefiero conocer los antecedentes de una situacioó n a la que me voy a enfrentar para no ser sorprendido.</li>
+              <input type="radio" id="p6" name="p6" value="1">SI
+              <br>
+              <input type="radio" id="no" name="p6" value="0">NO
+            <li>Generalmente impongo mi punto de vista.</li>
+              <input type="radio" id="p7" name="p7" value="1">SI
+              <br>
+              <input type="radio" id="no" name="p7" value="0">NO
+            <li>En mis labores me gusta generalmente superar a las demaós personas.</li>
+              <input type="radio" id="p8" name="p8" value="1">SI
+              <br>
+              <input type="radio" id="no" name="p8" value="0">NO
+            <li>Prefiero mantener mi vida privada en reserva.</li>
+              <input type="radio" id="p9" name="p9" value="1">SI
+              <br>
+              <input type="radio" id="no" name="p9" value="0">NO
+            <li>Cuando las personas en las que confío me fallan me resulta difíócil perdonar.</li>
+              <input type="radio" id="p10" name="p10" value="1">SI
+              <br>
+              <input type="radio" id="no" name="p10" value="0">NO
+              <br>
+            <input type="button" value="ENVIAR" onclick="RECOGER_p()">
+          </ul>
+        </form>
+      </div>
+      <div id="c">
+        <form action="index.html" method="post">
+          <h2>SECCIÓN 3</h2>
+          <ul>
+            <li>Mi estado de aónimo es muy variable.</li>
+              <input type="radio" id="c1" name="c1" value="1">SI
+              <br>
+              <input type="radio" id="no" name="c1" value="0">NO
+            <li>Hay díóas en que me siento muy alegre y otros en los que sin causa estoy triste.</li>
+              <input type="radio" id="c2" name="c2" value="1">SI
+              <br>
+              <input type="radio" id="no" name="c2" value="0">NO
+            <li>A veces miro el futuro con gran optimismo y en ocasiones lo veo negro.</li>
+              <input type="radio" id="c3" name="c3" value="1">SI
+              <br>
+              <input type="radio" id="no" name="c3" value="0">NO
+            <li>Cuando estoy en buen estado emocional me torno excesivamente generoso.</li>
+              <input type="radio" id="c4" name="c4" value="1">SI
+              <br>
+              <input type="radio" id="no" name="c4" value="0">NO
+            <li>Por las mañanas me siento triste y parecería que todo me saldrá mal.</li>
+              <input type="radio" id="c5" name="c5" value="1">SI
+              <br>
+              <input type="radio" id="no" name="c5" value="0">NO
+            <li>Me impresiono faócilmente ante las situaciones de sufrimiento humano.</li>
+              <input type="radio" id="c6" name="c6" value="1">SI
+              <br>
+              <input type="radio" id="no" name="c6" value="0">NO
+            <li>Soy sensible ante las circunstancias de malestar ajeno.</li>
+              <input type="radio" id="c7" name="c7" value="1">SI
+              <br>
+              <input type="radio" id="no" name="c7" value="0">NO
+            <li>En mi vida diaria repentinamente aparecen períóodos de tristeza sin motivo.</li>
+              <input type="radio" id="c8" name="c8" value="1">SI
+              <br>
+              <input type="radio" id="no" name="c8" value="0">NO
+            <li>Sobredimensiono las expresiones de amistad y afecto.</li>
+              <input type="radio" id="c9" name="c9" value="1">SI
+              <br>
+              <input type="radio" id="no" name="c9" value="0">NO
+            <li>Soy bromista, agradable y expresivo con las personas que conozco.</li>
+              <input type="radio" id="c10" name="c10" value="1">SI
+              <br>
+              <input type="radio" id="no" name="c10" value="0">NO
+              <br>
+            <input type="button" value="ENVIAR" onclick="RECOGER_c()">
+          </ul>
+        </form>
+      </div>
+      <div id="h">
+        <form action="index.html" method="post">
+          <h2>SECCIÓN 4</h2>
+          <ul>
+            <li>En la mayoríóa de ocasiones me gusta salirme con la mía.</li>
+              <input type="radio" id="h1" name="h1" value="1">SI
+              <br>
+              <input type="radio" id="no" name="h1" value="0">NO
+            <li>Me gusta ayudar a la gente sin importar el grado de cercaníóa que tenga con ella.</li>
+              <input type="radio" id="h2" name="h2" value="1">SI
+              <br>
+              <input type="radio" id="no" name="h2" value="0">NO
+            <li>Reacciono con gran emotividad ante las circunstancias que ocurren a mi alrededor.</li>
+              <input type="radio" id="h3" name="h3" value="1">SI
+              <br>
+              <input type="radio" id="no" name="h3" value="0">NO
+            <li>Para salir de casa mi aspecto fíósico debe ser impecable.</li>
+              <input type="radio" id="h4" name="h4" value="1">SI
+              <br>
+              <input type="radio" id="no" name="h4" value="0">NO
+            <li>Cuando me propongo conseguir algo a veces exagero y dramatizo.</li>
+              <input type="radio" id="h5" name="h5" value="1">SI
+              <br>
+              <input type="radio" id="no" name="h5" value="0">NO
+            <li>Mi vida social es muy amplia, tengo facilidad para conseguir amigos.</li>
+              <input type="radio" id="h6" name="h6" value="1">SI
+              <br>
+              <input type="radio" id="no" name="h6" value="0">NO
+            <li>En una reunioó n social soy muy alegre y extrovertido me convierto en el alma de la fiesta.</li>
+              <input type="radio" id="h7" name="h7" value="1">SI
+              <br>
+              <input type="radio" id="no" name="h7" value="0">NO
+            <li>Creo faócilmente lo que me dicen o lo que leo, llegando a sugestionarme.</li>
+              <input type="radio" id="h8" name="h8" value="1">SI
+              <br>
+              <input type="radio" id="no" name="h8" value="0">NO
+            <li>Me gusta ser reconocido por lo que hago.</li>
+              <input type="radio" id="h9" name="h9" value="1">SI
+              <br>
+              <input type="radio" id="no" name="h9" value="0">NO
+            <li>Me agrada que los demaós me vean atractivo.</li>
+              <input type="radio" id="h10" name="h10" value="1">SI
+              <br>
+              <input type="radio" id="no" name="h10" value="0">NO
+              <br>
+            <input type="button" value="ENVIAR" onclick="RECOGER_h()">
+          </ul>
+        </form>
+      </div>
+      <div id="ev">
+        <form action="index.html" method="post">
+          <h2>SECCIÓN 5</h2>
+          <ul>
+            <li>Prefiero evitar actividades que involucren contacto con los demás.</li>
+              <input type="radio" id="ev1" name="ev1" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ev1" value="0">NO
+            <li>Me preocupa la críótica, desaprobacioó n o rechazo de las personas que conozco.</li>
+              <input type="radio" id="ev2" name="ev2" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ev2" value="0">NO
+            <li>En una reunioó n social prefiero estar alejado del griterío.</li>
+              <input type="radio" id="ev3" name="ev3" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ev3" value="0">NO
+            <li>Para poder relacionarme debo estar seguro de agradar a los demás.</li>
+              <input type="radio" id="ev4" name="ev4" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ev4" value="0">NO
+            <li>Me cuesta simpatizar con los demaós porque tengo miedo a ser ridiculizado o avergonzado.</li>
+              <input type="radio" id="ev5" name="ev5" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ev5" value="0">NO
+            <li>Mi vida social es reducida.</li>
+              <input type="radio" id="ev6" name="ev6" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ev6" value="0">NO
+            <li>Cuando conozco a gente nueva temo no poder iniciar una conversación.</li>
+              <input type="radio" id="ev7" name="ev7" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ev7" value="0">NO
+            <li>Me gustaría mejorar mis relaciones interpersonales.</li>
+              <input type="radio" id="ev8" name="ev8" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ev8" value="0">NO
+            <li>Tengo dificultades para hablar de mi mismo ante los demás.</li>
+              <input type="radio" id="ev9" name="ev9" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ev9" value="0">NO
+            <li>Me siento ofendido si alguien se muestra crítico frente a mí durante una conversación.</li>
+              <input type="radio" id="ev10" name="ev10" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ev10" value="0">NO
+              <br>
+            <input type="bottom" value="ENVIAR" onclick="RECOGER_ev()">
+          </ul>
+        </form>
+      </div>
+      <div id="d">
+        <form action="index.html" method="post">
+          <h2>SECCIÓN 6</h2>
+          <ul>
+            <li>Cuando encuentro dificultades en el camino me resigno a no llegar al objetivo planteado.</li>
+              <input type="radio" id="d1" name="d1" value="1">SI
+              <br>
+              <input type="radio" id="no" name="d1" value="0">NO
+            <li>Cuando he terminado una relacioó n afectiva busco que alguien me proporcione cuidado y apoyo.</li>
+              <input type="radio" id="d2" name="d2" value="1">SI
+              <br>
+              <input type="radio" id="no" name="d2" value="0">NO
+            <li>Cuando tengo problemas busco a otras personas para que me aconsejen.</li>
+              <input type="radio" id="d3" name="d3" value="1">SI
+              <br>
+              <input type="radio" id="no" name="d3" value="0">NO
+            <li>Me cuesta expresar mi desacuerdo a las demás personas.</li>
+              <input type="radio" id="d4" name="d4" value="1">SI
+              <br>
+              <input type="radio" id="no" name="d4" value="0">NO
+            <li>Prefiero acoger ideas y pensamientos cuando ya han sido aprobados.</li>
+              <input type="radio" id="d5" name="d5" value="1">SI
+              <br>
+              <input type="radio" id="no" name="d5" value="0">NO
+            <li>Soy obediente ante mis superiores y jefes.</li>
+              <input type="radio" id="d6" name="d6" value="1">SI
+              <br>
+              <input type="radio" id="no" name="d6" value="0">NO
+            <li>Generalmente intento evitar las discusiones con otros.</li>
+              <input type="radio" id="d7" name="d7" value="1">SI
+              <br>
+              <input type="radio" id="no" name="d7" value="0">NO
+            <li>Cuando observo dificultades tiendo a mantener una actitud pasiva y distante.</li>
+              <input type="radio" id="d8" name="d8" value="1">SI
+              <br>
+              <input type="radio" id="no" name="d8" value="0">NO
+            <li>Me siento incoó modo y desamparado cuando estoy solo.</li>
+              <input type="radio" id="d9" name="d9" value="1">SI
+              <br>
+              <input type="radio" id="no" name="d9" value="0">NO
+            <li>En situaciones difíóciles es mejor que los otros tomen decisiones.</li>
+              <input type="radio" id="d10" name="d10" value="1">SI
+              <br>
+              <input type="radio" id="no" name="d10" value="0">NO
+              <br>
+            <input type="button" value="ENVIAR" onclick="RECOGER_d()">
+          </ul>
+        </form>
+      </div>
+      <div id="e">
+        <form action="index.html" method="post">
+          <h2>SECCIÓN 7</h2>
+          <ul>
+            <li>Me resulta difíócil disfrutar de las relaciones familiares y sociales.</li>
+              <input type="radio" id="e1" name="e1" value="1">SI
+              <br>
+              <input type="radio" id="no" name="e1" value="0">NO
+            <li>Prefiero hacer las cosas solo.</li>
+              <input type="radio" id="e2" name="e2" value="1">SI
+              <br>
+              <input type="radio" id="no" name="e2" value="0">NO
+            <li>Disfruto maós realizando pocas actividades que demasiadas.</li>
+              <input type="radio" id="e3" name="e3" value="1">SI
+              <br>
+              <input type="radio" id="no" name="e3" value="0">NO
+            <li>Tengo pocos amigos íóntimos o de confianza.</li>
+              <input type="radio" id="e4" name="e4" value="1">SI
+              <br>
+              <input type="radio" id="no" name="e4" value="0">NO
+            <li>Siempre me ha costado enamorarme profundamente.</li>
+              <input type="radio" id="e5" name="e5" value="1">SI
+              <br>
+              <input type="radio" id="no" name="e5" value="0">NO
+            <li>Soy insensible ante los hechos o circunstancias adversas que sucedan.</li>
+              <input type="radio" id="e6" name="e6" value="1">SI
+              <br>
+              <input type="radio" id="no" name="e6" value="0">NO
+            <li>No experimento intensamente emociones como la ira y la alegría.</li>
+              <input type="radio" id="e7" name="e7" value="1">SI
+              <br>
+              <input type="radio" id="no" name="e7" value="0">NO
+            <li>Prefiero las actividades abstractas o misteriosas.</li>
+              <input type="radio" id="e8" name="e8" value="1">SI
+              <br>
+              <input type="radio" id="no" name="e8" value="0">NO
+            <li>Soy indiferente ante los halagos o críóticas de los demás.</li>
+              <input type="radio" id="e9" name="e9" value="1">SI
+              <br>
+              <input type="radio" id="no" name="e9" value="0">NO
+            <li>En las reuniones sociales prefiero mantenerme distanciado de las personas que me rodean.</li>
+              <input type="radio" id="e10" name="e10" value="1">SI
+              <br>
+              <input type="radio" id="no" name="e10" value="0">NO
+              <br>
+            <input type="button" value="ENVIAR" onclick="RECOGER_e()">
+          </ul>
+        </form>
+      </div>
+      <div id="ez">
+        <form action="index.html" method="post">
+          <h2>SECCIÓN 8</h2>
+          <ul>
+            <li>Me agradan las cosas exceóntricas y fuera de lo común.</li>
+              <input type="radio" id="ez1" name="ez1" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ez1" value="0">NO
+            <li>Tengo un poder especial para saber queó es lo que sucederaó en el futuro.</li>
+              <input type="radio" id="ez2" name="ez2" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ez2" value="0">NO
+            <li>Mi apariencia es peculiar y rara para los demás.</li>
+              <input type="radio" id="ez3" name="ez3" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ez3" value="0">NO
+            <li>No confíóo mucho en mis amigos íntimos o de confianza.</li>
+              <input type="radio" id="ez4" name="ez4" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ez4" value="0">NO
+            <li>Me agradan las supersticiones y los fenoó menos paranormales.</li>
+              <input type="radio" id="ez5" name="ez5" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ez5" value="0">NO
+            <li>Con los demás soy inflexible, me cuesta ceder a sus peticiones.</li>
+              <input type="radio" id="ez6" name="ez6" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ez6" value="0">NO
+            <li>Siento que soy diferente y que no encajo con los demás.</li>
+              <input type="radio" id="ez7" name="ez7" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ez7" value="0">NO
+            <li>Me siento muy ansioso ante personas desconocidas.</li>
+              <input type="radio" id="ez8" name="ez8" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ez8" value="0">NO
+            <li>Temo que los demaós quieran hacerme daño.</li>
+              <input type="radio" id="ez9" name="ez9" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ez9" value="0">NO
+            <li>Creo ver, oír o sentir algo que no es real.</li>
+              <input type="radio" id="ez10" name="ez10" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ez10" value="0">NO
+              <br>
+            <input type="button" value="ENVIAR" onclick="RECOGER_ez()">
+          </ul>
+        </form>
+      </div>
+      <div id="ds">
+        <form action="index.html" method="post">
+          <h2>SECCIÓN 9</h2>
+          <ul>
+            <li>Reniego de las normas sociales y legales.</li>
+              <input type="radio" id="ds1" name="ds1" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ds1" value="0">NO
+            <li>A veces hago trampa para obtener beneficios personales.</li>
+              <input type="radio" id="ds2" name="ds2" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ds2" value="0">NO
+            <li>Si encuentro una solución que es favorable para mí, avanzo, sin fijarme si las consecuencias son negativas para otras personas.</li>
+              <input type="radio" id="ds3" name="ds3" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ds3" value="0">NO
+            <li>En la niñez solía causar daños a los animales.</li>
+              <input type="radio" id="ds4" name="ds4" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ds4" value="0">NO
+            <li>Suelo ser impulsivo al planificar el futuro.</li>
+              <input type="radio" id="ds5" name="ds5" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ds5" value="0">NO
+            <li>Soy incapaz de mantener relaciones personales duraderas.</li>
+              <input type="radio" id="ds6" name="ds6" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ds6" value="0">NO
+            <li>Cuando estoy con ira expreso mi agresividad sin importarme las consecuencias.</li>
+              <input type="radio" id="ds7" name="ds7" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ds7" value="0">NO
+            <li>No me preocupa mi seguridad ni la de las demás personas.</li>
+              <input type="radio" id="ds8" name="ds8" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ds8" value="0">NO
+            <li>Soy inestable en mis trabajos aún cuando tenga obligaciones económicas.</li>
+              <input type="radio" id="ds9" name="ds9" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ds9" value="0">NO
+            <li>No tengo remordimientos cuando ofendo a los demás.</li>
+              <input type="radio" id="ds10" name="ds10" value="1">SI
+              <br>
+              <input type="radio" id="no" name="ds10" value="0">NO
+              <br>
+            <input type="button" value="ENVIAR" onclick="RECOGER_ds()">
+          </ul>
+        </form>
+      </div>
+      <div id="i">
+        <form action="index.html" method="post">
+          <h2>SECCIÓN 10</h2>
+          <ul>
+            <li>Me cuesta esfuerzos controlar mi ira.</li>
+              <input type="radio" id="i1" name="i1" value="1">SI
+              <br>
+              <input type="radio" id="no" name="i1" value="0">NO
+            <li>Soy impulsivo en la realizacioó n de mis actividades.</li>
+              <input type="radio" id="i2" name="i2" value="1">SI
+              <br>
+              <input type="radio" id="no" name="i2" value="0">NO
+            <li>Mis relaciones interpersonales son muy inestables e intensas</li>
+              <input type="radio" id="i3" name="i3" value="1">SI
+              <br>
+              <input type="radio" id="no" name="i3" value="0">NO
+            <li>Me gusta enganñ ar a las personas para que esteón conmigo.</li>
+              <input type="radio" id="i4" name="i4" value="1">SI
+              <br>
+              <input type="radio" id="no" name="i4" value="0">NO
+            <li>Generalmente no mido las consecuencias de mis actos, aunque luego reacciono con arrepentimiento.</li>
+              <input type="radio" id="i5" name="i5" value="1">SI
+              <br>
+              <input type="radio" id="no" name="i5" value="0">NO
+            <li>Elaboro imágenes idealizadas de las personas que están conmigo.</li>
+              <input type="radio" id="i6" name="i6" value="1">SI
+              <br>
+              <input type="radio" id="no" name="i6" value="0">NO
+            <li>La rutina me molesta por eso siempre busco algo diferente que hacer.</li>
+              <input type="radio" id="i7" name="i7" value="1">SI
+              <br>
+              <input type="radio" id="no" name="i7" value="0">NO
+            <li>A pesar de tener un caraócter fuerte temo ser abandonado.</li>
+              <input type="radio" id="i8" name="i8" value="1">SI
+              <br>
+              <input type="radio" id="no" name="i8" value="0">NO
+            <li>Me gasto el dinero de manera imprudente por ejemplo en apuestas, en compras innecesarias.</li>
+              <input type="radio" id="i9" name="i9" value="1">SI
+              <br>
+              <input type="radio" id="no" name="i9" value="0">NO
+            <li>Cambio bruscamente de opinió n con respecto al futuro, las amistades o las ocupaciones.</li>
+              <input type="radio" id="i10" name="i10" value="1">SI
+              <br>
+              <input type="radio" id="no" name="i10" value="0">NO
+              <br>
+            <input type="button" value="ENVIAR" onclick="RECOGER_i()">
+          </ul>
+        </form>
+      </div>
+    </div>
+    <script src="C:\Users\andre\Desktop\Platzi\HTML - CSS - JavaScript\Curso\Proyecto.js"></script>
+  </body>
+</html>
