@@ -1,0 +1,305 @@
+body{
+  background: #EBEDFF;
+  font-family: serif;
+}
+
+.Banner{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  background: #083D42;
+}
+
+#Banner_sentence{
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: 2px;
+  width: 70%;
+  color: white;
+  text-transform: uppercase;
+}
+#Banner_sentence h1{
+  width: 90%;
+  font-size: 50px;
+}
+
+.Banner img{
+  height: 95%;
+  border: 5px solid #083D42;
+}
+
+.barra_busqueda{
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  align-items: center;
+  background: #255559;
+}
+
+.barra_busqueda a{
+  color: white;
+  padding: 25px;
+  font-size: 20px;
+}
+
+.barra_busqueda a:hover{
+  background: #214359;
+  cursor: pointer;
+}
+
+.Introduccion{
+  display: flex;
+  padding: 20px 15px 10px 10px;
+}
+
+.Introduccion h3{
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.Introduccion_teoria{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: justify;
+  padding-right: 25px;
+}
+
+ .Introduccion img{
+   width: 35%;
+ }
+
+#Test_Personalidad{
+  padding-top: 100px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.Cuestionario{
+  display: flex;
+  width: 98%;
+  flex-wrap: wrap;
+  background: #0F717A;
+}
+
+.Cuestionario p{
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 0;
+  background: #EBEDFF;
+}
+
+.Recuadro{
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.barra_Contenido {
+  display: flex;
+  width: 12%;
+  flex-direction: column;
+  position: sticky;
+  padding: 11px;
+}
+
+.barra_Contenido a{
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.barra_Contenido a:hover{
+  background: #175757;
+  cursor: pointer;
+}
+
+.Preguntas{
+  background: #EBEDFF;
+  overflow: scroll;
+  height: 550px;
+  padding-left: 25px;
+  width: 100%;
+  border: 3px solid #0F717A;
+}
+.Resultados{
+  background: #175757;
+  height: 340px;
+  width: 100%;
+  padding-left: 35px;
+  text-align: left;
+  background: #175757;
+  color: white;
+}
+
+.Resultados h3{
+  font-size: 35px;
+  color: white;
+  letter-spacing: 1px;
+}
+.Resultados p{
+  font-size: 30px;
+  background: #175757;
+  color: white;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 28px;
+  background: #175757;
+}
+
+.result a{
+  color: white;
+  padding-top: 2px:
+}
+
+.Preguntas input:hover{
+  cursor: pointer;
+}
+
+.Preguntas h2{
+  font-size: 25px;
+  background: #175757;
+  padding-left: 20px;
+  width: 20%;
+  color: white;
+}
+
+.Preguntas li{
+  font-size: 20px;
+}
+
+.Personalidades{
+  padding: 40px 15px 60px 20px;
+}
+
+.Personalidades h2{
+  font-size: 60px;
+  text-align: center;
+}
+
+.Personalidades h3{
+  font-size: 35px;
+}
+
+.Personalidades img{
+  width: 15%;
+  border: 3px solid #175757;
+}
+
+.Personalidades p{
+  font-size: 25px;
+  padding-right: 15px;
+  text-align: justify;
+}
+
+.Histrionica{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Histrionica p{
+  width: 80%;
+}
+
+.Ciclotimica{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Ciclotimica p{
+  width: 80%;
+}
+
+.Anancastica{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Anancastica p{
+  width: 80%;
+}
+
+.Paranoide{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Paranoide p{
+  width: 80%;
+}
+
+.Inestable{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Inestable p{
+  width: 80%;
+}
+
+.Disocial{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Disocial p{
+  width: 80%;
+}
+
+.Evitativa{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Evitativa p{
+  width: 80%;
+}
+
+.Dependiente{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Dependiente p{
+  width: 80%;
+}
+
+.Esquizoide{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Esquizoide p{
+  width: 80%;
+}
+
+.Esquizotipica{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Esquizotipica p{
+  width: 80%;
+}
+
+.Datos{
+  display: flex;
+  height: 250px;
+  background: #255559;
+  color: white;
+}
+
+.Datos li{
+  font-size: 18px;
+  padding: 5px;
+}
