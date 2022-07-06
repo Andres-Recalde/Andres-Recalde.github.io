@@ -1,0 +1,650 @@
+  body{
+    background: #EBEDFF;
+    font-family: serif;
+  }
+
+  .Banner{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    background: #083D42;
+  }
+
+  #Banner_sentence{
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 2px;
+    width: 70%;
+    color: white;
+    text-transform: uppercase;
+  }
+  #Banner_sentence h1{
+    width: 90%;
+    font-size: 50px;
+  }
+
+  .Banner img{
+    height: 95%;
+    border: 5px solid #083D42;
+  }
+
+  .barra_busqueda{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    background: #255559;
+  }
+
+  .barra_busqueda a{
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+  }
+
+  .barra_busqueda a:hover{
+    background: #214359;
+    cursor: pointer;
+  }
+
+  .Introduccion{
+    display: flex;
+    padding: 20px 15px 10px 10px;
+    flex-wrap: wrap;
+  }
+
+  .Introduccion h3{
+    text-transform: uppercase;
+    width: 95%;
+    font-size: 35px;
+  }
+
+  .auxiliar{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Introduccion_teoria{
+    display: flex;
+    font-size: 20px;
+    text-align: justify;
+    flex-wrap: wrap;
+    width: 65%;
+    padding-left: 15px;
+  }
+
+   .Introduccion img{
+     width: 30%;
+   }
+
+  #Test_Personalidad{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .Cuestionario{
+    display: flex;
+    width: 98%;
+    flex-wrap: wrap;
+    background: #0F717A;
+  }
+
+  .Cuestionario p{
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 0;
+    background: #EBEDFF;
+  }
+
+  .Recuadro{
+    display: flex;
+    padding-bottom: 25px;
+  }
+
+  .barra_Contenido {
+    display: flex;
+    width: 12%;
+    flex-direction: column;
+    position: sticky;
+    padding: 11px;
+  }
+
+  .barra_Contenido a{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 10px;
+  }
+
+  .barra_Contenido a:hover{
+    background: #175757;
+    cursor: pointer;
+  }
+
+  .Preguntas{
+    background: #EBEDFF;
+    overflow: scroll;
+    height: 550px;
+    padding-left: 25px;
+    width: 100%;
+    border: 3px solid #0F717A;
+  }
+
+  .Preguntas input:hover{
+    cursor: pointer;
+  }
+
+  .Preguntas h2{
+    font-size: 25px;
+    background: #175757;
+    padding-left: 20px;
+    width: 20%;
+    color: white;
+  }
+
+  .Preguntas li{
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .Resultados{
+    background: #175757;
+    height: 340px;
+    width: 100%;
+    padding-left: 35px;
+    text-align: left;
+    background: #175757;
+    color: white;
+  }
+
+  .Resultados h3{
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+  }
+  .Resultados p{
+    font-size: 30px;
+    background: #175757;
+    color: white;
+  }
+
+  .result{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 28px;
+    background: #175757;
+  }
+
+  .result a{
+    color: white;
+    padding-top: 2px:
+  }
+
+  .Personalidades{
+    padding: 40px 15px 60px 20px;
+  }
+
+  .Personalidades h2{
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .Personalidades h3{
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .Personalidades img{
+    width: 15%;
+    border: 3px solid #175757;
+  }
+
+  .Personalidades p{
+    font-size: 25px;
+    padding-right: 15px;
+    text-align: justify;
+    margin-top: 6px;
+  }
+
+  .Histrionica{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Histrionica p{
+    width: 80%;
+  }
+
+  .Ciclotimica{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Ciclotimica p{
+    width: 80%;
+  }
+
+  .Anancastica{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Anancastica p{
+    width: 80%;
+  }
+
+  .Paranoide{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Paranoide p{
+    width: 80%;
+  }
+
+  .Inestable{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Inestable p{
+    width: 80%;
+  }
+
+  .Disocial{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Disocial p{
+    width: 80%;
+  }
+
+  .Evitativa{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Evitativa p{
+    width: 80%;
+  }
+
+  .Dependiente{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Dependiente p{
+    width: 80%;
+  }
+
+  .Esquizoide{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Esquizoide p{
+    width: 80%;
+  }
+
+  .Esquizotipica{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Esquizotipica p{
+    width: 80%;
+  }
+
+  .Datos{
+    display: flex;
+    height: 250px;
+    background: #255559;
+    color: white;
+  }
+
+  .Datos li{
+    font-size: 18px;
+    padding: 5px;
+  }
+
+@media only screen and (max-width: 580px){
+  body{
+    background: #EBEDFF;
+    font-family: serif;
+  }
+
+  .Banner{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 500px;
+    background: #083D42;
+  }
+
+  #Banner_sentence{
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 2px;
+    width: 70%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  #Banner_sentence h1{
+    font-size: 35px;
+  }
+
+  #Banner_sentence h2{
+    font-size: 20px;
+  }
+
+  .Banner img{
+    height: 45%;
+    border: 5px solid #083D42;
+  }
+
+  .barra_busqueda{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: #255559;
+  }
+
+  .barra_busqueda a{
+    font-size: 18px;
+    color: white;
+    padding: 25px;
+  }
+
+  .barra_busqueda a:hover{
+    background: #214359;
+    cursor: pointer;
+  }
+
+  .Introduccion{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5px 10px 10px;
+  }
+
+  .Introduccion h3{
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+
+  .Introduccion_teoria{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: justify;
+    width: 90%;
+    padding: 0;
+  }
+
+   .Introduccion img{
+     height: 95%;
+     width: 90%;
+   }
+
+  #Test_Personalidad{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .Cuestionario{
+    display: flex;
+    width: 98%;
+    flex-wrap: wrap;
+    background: #0F717A;
+  }
+
+  .Cuestionario p{
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 0;
+    background: #EBEDFF;
+  }
+
+  .Recuadro{
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 15px;
+  }
+
+  .barra_Contenido {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: sticky;
+    height: 200px;
+    padding: 11px;
+  }
+
+  .barra_Contenido a{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 10px;
+  }
+
+  .barra_Contenido a:hover{
+    background: #175757;
+    cursor: pointer;
+  }
+
+  .Preguntas{
+    background: #EBEDFF;
+    overflow: scroll;
+    height: 550px;
+    padding-left: 25px;
+    width: 93%;
+    border: 3px solid #0F717A;
+  }
+
+  .Preguntas input:hover{
+    cursor: pointer;
+  }
+
+  .Preguntas h2{
+    font-size: 20px;
+    background: #175757;
+    padding-left: 20px;
+    width: 45%;
+    color: white;
+  }
+
+  .Preguntas li{
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .Resultados{
+    background: #175757;
+    height: 300px;
+    width: 100%;
+    padding-left: 35px;
+    text-align: left;
+    background: #175757;
+    color: white;
+  }
+
+  .Resultados h3{
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+  }
+
+  .Resultados p{
+    font-size: 22px;
+    background: #175757;
+    color: white;
+    }
+
+  .result{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 20px;
+    background: #175757;
+  }
+
+  .result a{
+    color: white;
+    padding-top: 5px;
+  }
+
+  .Personalidades{
+    padding: 40px 15px 60px 20px;
+  }
+
+  .Personalidades h2{
+    font-size: 33px;
+    text-align: center;
+  }
+
+  .Personalidades h3{
+    font-size: 27px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+
+  .Personalidades img{
+    width: 98%;
+    border: 3px solid #175757;
+    margin-bottom: 30px;
+  }
+
+  .Personalidades p{
+    font-size: 21px;
+    padding-right: 15px;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .Histrionica{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Histrionica p{
+    width: 98%;
+  }
+
+  .Ciclotimica{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Ciclotimica p{
+    width: 98%;
+  }
+
+  .Anancastica{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Anancastica p{
+    width: 98%;
+  }
+
+  .Paranoide{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Paranoide p{
+    width: 98%;
+  }
+
+  .Inestable{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Inestable p{
+    width: 98%;
+  }
+
+  .Disocial{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Disocial p{
+    width: 98%;
+  }
+
+  .Evitativa{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Evitativa p{
+    width: 98%;
+  }
+
+  .Dependiente{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Dependiente p{
+    width: 98%;
+  }
+
+  .Esquizoide{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Esquizoide p{
+    width: 98%;
+  }
+
+  .Esquizotipica{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Esquizotipica p{
+    width: 98%;
+  }
+
+  .Datos{
+    display: flex;
+    flex-direction: column;
+    height: 580px;
+    background: #255559;
+    color: white;
+  }
+
+  .Datos img{
+    padding-top: 15px;
+    width: 70%;
+    align-self: center;
+  }
+  .Datos li{
+    font-size: 18px;
+    padding: 5px;
+  }
+}
