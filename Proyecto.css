@@ -341,7 +341,9 @@
     color: white;
     text-transform: uppercase;
     text-align: center;
+    margin: 5px;
   }
+  
   #Banner_sentence h1{
     font-size: 35px;
   }
@@ -353,6 +355,7 @@
   .Banner img{
     height: 45%;
     border: 5px solid #083D42;
+    margin: 5px;
   }
 
   .barra_busqueda{
